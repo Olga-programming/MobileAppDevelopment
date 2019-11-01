@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <!--first row-->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+
+            android:layout_row="0"
+            android:layout_column="0"
+            android:gravity="center"
+
+            android:text="To :" />
+
+        <View android:layout_width="0dp"
+            android:layout_rowWeight="1"
+
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+
+            android:layout_row="0"
+            android:layout_column="1"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+
+            android:layout_height="0dp"
+            android:layout_columnWeight="2"
+
+            android:layout_row="0"
+            android:layout_column="1"
+
+            android:layout_columnSpan="3"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="email@abc.com"
+            android:inputType="textEmailAddress" />
+
+
+
+    <!--second row-->
+    <EditText
+
+        android:layout_width="0dp"
+        android:layout_rowWeight="6"
+
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+
+
+        android:gravity="start|top"
+        android:hint="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse egestas ullamcorper facilisis."
+        android:inputType="textMultiLine" />
+
+    <!--third row-->
+
+
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_rowWeight="1"
+
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+
+        android:layout_row="3"
+        android:layout_column="3"
+
+
+        android:text="Email" />
+
+</GridLayout>

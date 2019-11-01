@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DialogActivity">
+
+    <Button
+        android:id="@+id/btnDialogAlertDlgBuild1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog.Builder 1 (implementation 1)" />
+
+    <Button
+        android:id="@+id/btnDialogAlertDlgBuild2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog.Builder 2 (implementation 2)" />
+
+    <Button
+        android:id="@+id/btnDialogAlertDlgBuild3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog.Builder 3 - Radio buttons" />
+
+    <Button
+        android:id="@+id/btnDialogAlertDlgBuild4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog.Builder 4 - Multi Selection)" />
+
+    <Button
+        android:id="@+id/btnDialogProgressDlg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress Dialog" />
+
+    <Button
+        android:id="@+id/btnDialogCustomDlg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog" />
+</LinearLayout>
